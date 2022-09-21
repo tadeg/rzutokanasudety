@@ -1,0 +1,117 @@
+footer {
+    position: relative;
+    width: 100vw;
+    height: 70vh;
+    background-color: rgb(0, 0, 0);
+    /* margin-top: 20vh; */
+    /* text-align: center; */
+}
+
+p.notes {
+    position: absolute;
+    left: 10%;
+    bottom: 5%;
+    margin-bottom: 2vh;
+    border-left: 5px solid white;
+    font-family: 'Antic', sans-serif;
+    font-size: 1.2rem;
+    padding: 5px;
+    color: white;
+    /* font-family: 'Archivo', sans-serif;
+    font-size: 2rem;
+    color: red; */
+}
+
+
+
+footer section.contact {
+    padding: 3% 0 0 11%;
+    /*  margin-bottom: 3vh;*/
+    text-align: left;
+}
+
+footer section.contact ul {
+    list-style: none;
+}
+
+footer section.contact ul li {
+    font-family: 'Antic', sans-serif;
+    font-size: 13px;
+    margin-bottom: .9vh;
+    transition: .3s;
+}
+
+footer section.contact ul li:hover {
+    color: white;
+}
+
+footer section.contact ul a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #999;
+}
+
+footer section.contact ul a:hover {
+    color: #00b1ff;
+    color: white;
+}
+
+footer section.contact ul i {
+    margin-right: 5px;
+    color: #999;
+}
+
+
+
+@media (orientation: portrait) and (min-width: 768px) {
+
+    p.notes {
+        font-size: 13px;
+        padding: 15px;
+    }
+
+    footer section.contact {
+        padding: 3% 0 0 11%;
+        /*  margin-bottom: 3vh;*/
+        text-align: left;
+    }
+
+    footer section.contact ul a {
+        font-size: 13px;
+
+    }
+
+}
+
+
+
+/* ---------- break points for desktop ----------*/
+
+@media (orientation: landscape) and (min-width: 1025px) {
+
+
+    /*  footer {}*/
+
+    p.notes {
+        font-size: 13px;
+        padding: 15px;
+    }
+
+    footer section.contact {
+        position: absolute;
+        right: 10%;
+        bottom: 5%;
+        margin-bottom: 3vh;
+    }
+
+    /*  footer section.contact ul {}*/
+    /*  footer section.contact ul li {}*/
+    /*  footer section.contact ul li:hover {}*/
+
+    footer section.contact ul a {
+        font-size: 13px;
+    }
+
+    /*  footer section.contact ul a:hover {}*/
+    /*  footer section.contact ul i {}*/
+}

@@ -1,0 +1,40 @@
+div.languages {
+    display: flex;
+    position: absolute;
+    top: 1vh;
+    left: 15vw;
+    line-height: 11vh;
+    font-size: 3rem;
+    /* background-color: lawngreen; */
+}
+
+div.languages p.lang {
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    /* font-weight: 400; */
+    color: white;
+    margin-right: 5px;
+    cursor: pointer;
+    transition: .3s linear;
+}
+
+div.languages p.lang.on {
+    font-weight: 400;
+}
+
+div.languages p.lang.off {
+    font-weight: 100;
+}
+
+
+div.languages p.lang:hover {
+    text-decoration: none;
+    color: #e27215;
+    /* color: limegreen; */
+}
+
+
+div.languages p.lang:visited {
+    text-decoration: none;
+    color: white;
+}

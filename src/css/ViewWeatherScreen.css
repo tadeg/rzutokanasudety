@@ -1,0 +1,285 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+.ViewWeatherScreen {
+    height: 200vh;
+    /* background: linear-gradient(rgba(9, 184, 224, 0.586), rgba(0, 0, 0, 0.7)); */
+    /* background-color: rgba(74, 74, 192, 0.321); */
+    background-color: rgb(134, 134, 248);
+    background-image: linear-gradient(#000, rgb(134, 134, 248));
+
+
+
+}
+
+
+
+/* -------- Header - title & data input -------- */
+
+.wea-up-container {
+    max-width: 85vw;
+    margin: 0 auto;
+    margin-bottom: 10vh;
+}
+
+
+.wea-get-info-btn {
+    flex-basis: 50%;
+    width: 25vw;
+    margin: 7vh 1vw 2vh;
+    padding: 2vh 3vw;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+    background: linear-gradient(rgba(9, 184, 224, 0.586), rgba(0, 0, 0, 0.7));
+    /* background-color: rgba(74, 74, 192, 0.321); */
+    /* background-color: rgb(134, 134, 248); */
+}
+
+.wea-get-info-btn:hover {
+    color: rgb(134, 134, 248);
+    color: #000;
+    background-color: #fff;
+}
+
+.wea-report-title {
+    /* max-width: 85vw; */
+    margin: 0 2vw;
+    padding-top: 10vh;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* font-family: Poppins; */
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3rem;
+    text-align: left;
+    color: darkblue;
+    color: #fff;
+    /* background-color: aqua; */
+}
+
+.rep-title {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 2vh;
+}
+
+.rep-params {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2vh;
+    text-align: center;
+    font-weight: 100;
+    color: #fff;
+    /* background-color: green; */
+    /* background: linear-gradient(rgba(9, 184, 224, 0.586), rgba(0, 0, 0, 0.7)); */
+}
+
+.rep-params-part {
+    display: flex;
+    flex-direction: row;
+}
+
+.data-input {
+    flex-basis: 50%;
+    margin: 1vh 1vw;
+    padding: 2vh 3vw;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+    /* background: linear-gradient(rgba(9, 184, 224, 0.586), rgba(0, 0, 0, 0.7)); */
+    /* background-color: rgba(74, 74, 192, 0.321); */
+    background-color: rgb(134, 134, 248);
+}
+
+.data-input.left,
+.data-input.right {
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+.data-input.left.city,
+.data-input.left {
+    border: none;
+    background-color: rgba(192, 113, 74, 0.321);
+
+}
+
+.data-input.right {
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.data-input.right:hover {
+    background: linear-gradient(rgba(21, 38, 41, 0.586), rgba(0, 0, 0, 0.7));
+    background-color: rgba(74, 74, 192, 0.321);
+}
+
+.logoSubpage {
+    text-align: center;
+}
+
+.siteLinkToHome {
+    padding-top: 2vh;
+    color: red;
+}
+
+.siteTitle {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+
+
+/* View Weather Info Table/Screen - headers */
+
+div.table-container {
+    max-width: 85vw;
+    margin: 0 auto;
+    background-color: aqua;
+}
+
+
+li.table-row {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-weight: 600;
+    color: #333;
+    font-size: 1.2rem;
+}
+
+
+/* ---------- break points for desktop ---------- */
+@media (min-width: 860px) {
+    li.table-row {
+        flex-direction: row;
+    }
+}
+
+
+
+div.table-data {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-grow: 2;
+}
+
+/* ---------- break points for desktop ---------- */
+@media (min-width: 860px) {
+    div.table-data {
+        width: 70%;
+    }
+}
+
+
+div.table-data2 {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    flex-grow: 1
+}
+
+
+/* ---------- break points for desktop ---------- */
+@media (min-width: 860px) {
+    div.table-data2 {
+        width: 30%;
+    }
+}
+
+
+.cell1 {
+    flex-basis: 5%;
+    padding: 1.5vh 1.5vh;
+    text-align: center;
+    background-color: rgba(9, 184, 224, 0.586);
+}
+
+.cell2 {
+    flex-basis: 35%;
+    padding: 1.5vh 1.5vh;
+    text-align: center;
+    background-color: rgba(178, 240, 254, 0.586);
+}
+
+
+.cell3 {
+    flex-basis: 30%;
+    padding: 1.5vh 1.5vh;
+    text-align: center;
+    background-color: rgba(9, 184, 224, 0.586);
+}
+
+
+.cell4 {
+    flex-basis: 30%;
+    padding: 1.5vh 1.5vh;
+    text-align: center;
+    background-color: rgba(178, 240, 254, 0.586);
+}
+
+
+.cell5 {
+    flex-basis: 50%;
+    padding: 1.5vh 1.5vh;
+    text-align: center;
+    background-color: rgb(255, 229, 181);
+}
+
+/* .cell5 i {
+    cursor: pointer;
+}
+
+.cell5 i:hover {
+    font-size: 2rem;
+    color: #e27215;
+    transition: .5s;
+} */
+
+
+.cell6 {
+    flex-basis: 50%;
+    padding: 1.5vh 1.5vh;
+    text-align: center;
+    background-color: #ffa500;
+}
+
+/* .cell6 i {
+    cursor: pointer;
+}
+
+.cell6 i:hover {
+    font-size: 2rem;
+    color: #e27215;
+    transition: .5s;
+} */
+
+
+.cnt {
+    background-color: rgb(255, 249, 249);
+    border-bottom: 1px solid #000;
+}
+
+
+.warningInfo {
+    font-size: 1.3rem;
+}

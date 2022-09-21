@@ -1,0 +1,19 @@
+/* -------- Burger Menu Icons --------*/
+
+header .burger {
+    position: absolute;
+    top: 1vh;
+    left: 4vw;
+    font-size: 4rem;
+    line-height: 12vh;
+    -webkit-transition: .3s linear;
+    transition: .3s linear;
+    z-index: 1;
+    color: #fff;
+}
+
+header .burger:hover {
+    cursor: pointer;
+    color: #e27215;
+    color: limegreen;
+}

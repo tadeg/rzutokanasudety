@@ -1,0 +1,134 @@
+/* View Weather Info Table/Screen - headers */
+
+div.table-container {
+    max-width: 85vw;
+    margin: 0 auto;
+    background-color: aqua;
+}
+
+
+
+li.table-row {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-weight: 600;
+    color: #333;
+    font-size: 1.2rem;
+}
+
+
+/* ---------- break points for desktop ---------- */
+@media (min-width: 860px) {
+    li.table-row {
+        flex-direction: row;
+    }
+}
+
+
+
+div.table-data {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-grow: 2;
+}
+
+/* ---------- break points for desktop ---------- */
+@media (min-width: 860px) {
+    div.table-data {
+        width: 70%;
+    }
+}
+
+
+div.table-data2 {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    flex-grow: 1
+}
+
+
+/* ---------- break points for desktop ---------- */
+@media (min-width: 860px) {
+    div.table-data2 {
+        width: 30%;
+    }
+}
+
+
+.cell1 {
+    flex-basis: 5%;
+    padding: 1.5vh 1.5vh;
+    text-align: center;
+    background-color: rgba(9, 184, 224, 0.586);
+}
+
+.cell2 {
+    flex-basis: 35%;
+    padding: 1.5vh 1.5vh;
+    text-align: center;
+    background-color: rgba(178, 240, 254, 0.586);
+}
+
+
+.cell3 {
+    flex-basis: 30%;
+    padding: 1.5vh 1.5vh;
+    text-align: center;
+    background-color: rgba(9, 184, 224, 0.586);
+}
+
+
+.cell4 {
+    flex-basis: 30%;
+    padding: 1.5vh 1.5vh;
+    text-align: center;
+    background-color: rgba(178, 240, 254, 0.586);
+}
+
+
+.cell5 {
+    flex-basis: 50%;
+    padding: 1.5vh 1.5vh;
+    text-align: center;
+    background-color: rgb(255, 229, 181);
+}
+
+/* .cell5 i {
+    cursor: pointer;
+}
+
+.cell5 i:hover {
+    font-size: 2rem;
+    color: #e27215;
+    transition: .5s;
+} */
+
+
+.cell6 {
+    flex-basis: 50%;
+    padding: 1.5vh 1.5vh;
+    text-align: center;
+    background-color: #ffa500;
+}
+
+/* .cell6 i {
+    cursor: pointer;
+}
+
+.cell6 i:hover {
+    font-size: 2rem;
+    color: #e27215;
+    transition: .5s;
+} */
+
+
+.cnt {
+    background-color: rgb(255, 249, 249);
+    background-color: rgb(233, 231, 231);
+    border-bottom: 1px solid #000;
+}

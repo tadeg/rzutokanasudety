@@ -1,0 +1,28 @@
+.navigation {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: blue;
+}
+
+
+.navigation__elements {
+    list-style-type: none;
+    overflow: hidden;
+    float: left;
+}
+
+.navigation__element {
+    float: left;
+}
+
+.navigation__link {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.navigation__link:hover {
+    text-decoration: underline;
+}

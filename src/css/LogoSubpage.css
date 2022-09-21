@@ -1,0 +1,12 @@
+.logoSubpage {
+    padding: 10vh 0 5vh 0;
+}
+
+.subPageTitle {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    margin: 0;
+    text-transform: uppercase;
+    color: #fff;
+}

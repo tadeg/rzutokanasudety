@@ -1,0 +1,57 @@
+/* Strona główna - pasma górskie widoczne */
+
+.navigatorBtn {
+    width: 100vw;
+    height: 20vh;
+    cursor: pointer;
+    color: #fff;
+    /* color: #999; */
+    color: limegreen;
+    background-color: #222;
+    border: none;
+    font-size: 2.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    letter-spacing: 4px;
+    transition: 0.3s;
+}
+
+/* @media (min-width: 1200px) {
+    .navigatorBtn {
+        font-size: 1.5rem;
+        color: #fff;
+        font-family: 'Times New Roman', Times, serif;
+    }
+} */
+
+.navigatorBtn:hover {
+    /* background-color: aqua; */
+    color: limegreen;
+    color: #fff;
+    color: limegreen;
+    font-size: 5rem;
+    font-weight: 100;
+    /* text-transform: uppercase; */
+}
+
+
+/* Pasma górskie widoczne */
+
+.navigatorBtn.red {
+    color: red;
+
+}
+
+/* 
+@media (min-width: 1200px) {
+    .navigatorBtn.red {
+        font-size: 1.5rem;
+        color: #fff;
+        font-family: 'Times New Roman', Times, serif;
+    }
+} */
+
+.navigatorBtn.red:hover {
+    color: red;
+
+}
