@@ -1,0 +1,141 @@
+[{
+        "city": "Karpacz",
+        "date_forecast": "2022-09-21",
+        "temperature": "10",
+        "humidity": "75",
+        "pressure": "1015"
+    },
+    {
+        "city": "Karpacz",
+        "date_forecast": "2022-09-22",
+        "temperature": "11",
+        "humidity": "77",
+        "pressure": "1017"
+    },
+    {
+        "city": "Karpacz",
+        "date_forecast": "2022-09-23",
+        "temperature": "8",
+        "humidity": "82",
+        "pressure": "999"
+    },
+    {
+        "city": "Karpacz",
+        "date_forecast": "2022-09-24",
+        "temperature": "7,8",
+        "humidity": "83",
+        "pressure": "997"
+    },
+    {
+        "city": "Karpacz",
+        "date_forecast": "2022-09-25",
+        "temperature": "11",
+        "humidity": "75",
+        "pressure": "997"
+    },
+    {
+        "city": "Walim",
+        "date_forecast": "2022-09-21",
+        "temperature": "10",
+        "humidity": "75",
+        "pressure": "1015"
+    },
+    {
+        "city": "Walim",
+        "date_forecast": "2022-09-22",
+        "temperature": "11",
+        "humidity": "77",
+        "pressure": "1017"
+    },
+    {
+        "city": "Walim",
+        "date_forecast": "2022-09-23",
+        "temperature": "8",
+        "humidity": "82",
+        "pressure": "999"
+    },
+    {
+        "city": "Walim",
+        "date_forecast": "2022-09-24",
+        "temperature": "7,8",
+        "humidity": "83",
+        "pressure": "997"
+    },
+    {
+        "city": "Walim",
+        "date_forecast": "2022-09-25",
+        "temperature": "11",
+        "humidity": "75",
+        "pressure": "997"
+    },
+    {
+        "city": "Szczytna",
+        "date_forecast": "2022-09-21",
+        "temperature": "10",
+        "humidity": "7",
+        "pressure": "1015"
+    },
+    {
+        "city": "Szczytna",
+        "date_forecast": "2022-09-22",
+        "temperature": "11",
+        "humidity": "77",
+        "pressure": "1017"
+    },
+    {
+        "city": "Szczytna",
+        "date_forecast": "2022-09-23",
+        "temperature": "8",
+        "humidity": "82",
+        "pressure": "999"
+    },
+    {
+        "city": "Szczytna",
+        "date_forecast": "2022-09-24",
+        "temperature": "7,8",
+        "humidity": "83",
+        "pressure": "997"
+    },
+    {
+        "city": "Szczytna",
+        "date_forecast": "2022-09-25",
+        "temperature": "11",
+        "humidity": "75",
+        "pressure": "997"
+    },
+    {
+        "city": "Świeradów Zdrój",
+        "date_forecast": "2022-09-21",
+        "temperature": "10",
+        "humidity": "75",
+        "pressure": "1015"
+    },
+    {
+        "city": "Świeradów Zdrój",
+        "date_forecast": "2022-09-22",
+        "temperature": "11",
+        "humidity": "77",
+        "pressure": "1017"
+    },
+    {
+        "city": "Świeradów Zdrój",
+        "date_forecast": "2022-09-23",
+        "temperature": "8",
+        "humidity": "82",
+        "pressure": "999"
+    },
+    {
+        "city": "Świeradów Zdrój",
+        "date_forecast": "2022-09-24",
+        "temperature": "7,8",
+        "humidity": "83",
+        "pressure": "997"
+    },
+    {
+        "city": "Świeradów Zdrój",
+        "date_forecast": "2022-09-25",
+        "temperature": "11",
+        "humidity": "75",
+        "pressure": "997"
+    }
+]
