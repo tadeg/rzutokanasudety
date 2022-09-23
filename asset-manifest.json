@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/rzutokanasudety/static/css/main.3e667b6f.css",
-    "main.js": "/rzutokanasudety/static/js/main.f458304e.js",
+    "main.css": "/rzutokanasudety/static/css/main.e31a47d1.css",
+    "main.js": "/rzutokanasudety/static/js/main.c2b5a0ac.js",
     "static/js/787.ca52233c.chunk.js": "/rzutokanasudety/static/js/787.ca52233c.chunk.js",
-    "static/media/logo.svg": "/rzutokanasudety/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/rzutokanasudety/index.html",
-    "main.3e667b6f.css.map": "/rzutokanasudety/static/css/main.3e667b6f.css.map",
-    "main.f458304e.js.map": "/rzutokanasudety/static/js/main.f458304e.js.map",
+    "main.e31a47d1.css.map": "/rzutokanasudety/static/css/main.e31a47d1.css.map",
+    "main.c2b5a0ac.js.map": "/rzutokanasudety/static/js/main.c2b5a0ac.js.map",
     "787.ca52233c.chunk.js.map": "/rzutokanasudety/static/js/787.ca52233c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e667b6f.css",
-    "static/js/main.f458304e.js"
+    "static/css/main.e31a47d1.css",
+    "static/js/main.c2b5a0ac.js"
   ]
 }
