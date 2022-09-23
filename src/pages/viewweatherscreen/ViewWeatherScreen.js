@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import "../../css/ViewWeatherScreen.css";
 
 import Weather2Disp from '../../components/Weather2Disp/Weather2Disp';
@@ -18,7 +17,6 @@ let newCell3Cnt // new, added cell3 of the content row; for 'date_forecast' attr
 let newCell4Cnt // new, added cell4 of the content row; for 'temperature' attribute
 let newCell5Cnt // new, added cell5 of the content row; for 'humidity' attribute
 let newCell6Cnt // new, added cell6 of the content row; for 'pressure' attribute
-let newCell7Cnt // new, added cell7 of the content row; for 'wind_speed' attribute
 
 // let dateStart // 'start/from date entered by the user (as a String)
 // let dateStartCnv // 'start/from date entered by the user (as a Date)
@@ -123,7 +121,7 @@ function appendData(data) {
     let cityFromApi = data[i].city;
 
 
-    if ((dateStartCnv <= dateFromApi) && (cityFromUser == cityFromApi)) {
+    if ((dateStartCnv <= dateFromApi) && (cityFromUser === cityFromApi)) {
 
 
     console.log('Test NEXT STEP');
@@ -241,8 +239,8 @@ function appendData(data) {
                     <button onClick={this.setWeatherDataHandler} className="wea-get-info-btn">Get Weather Forecast</button>
                     <p className="warningInfo">Weather forcast data is a test, fictional, example data requested from a test API endpoint.</p>
                     <div className="rep-title">
-                        <h2 className="wea-report-title">Weather forecast info: </h2>
-                        <h2 className="wea-report-title selected-city"></h2>
+                        <h2 className="wea-report-title">Weather forecast info:</h2>
+                        {/* <h2 className="wea-report-title selected-city"></h2> */}
                     </div>
                     
                     <div className="rep-params">

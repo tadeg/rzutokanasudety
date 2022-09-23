@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; 
 import '../../css/IntLinks.css';
 import BurgerMenuHome from '../../components/BurgerMenuHome/BurgerMenuHome';
 import LogoSubpage from "../../components/LogoSubpage/LogoSubpage";

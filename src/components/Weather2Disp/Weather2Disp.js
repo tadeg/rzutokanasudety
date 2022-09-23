@@ -1,7 +1,5 @@
 import React from "react";
-import { Link } from 'react-router-dom';
 import '../../css/Weather2Disp.css';
-
 
 
 

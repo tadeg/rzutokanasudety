@@ -1,8 +1,7 @@
 import React from 'react';
-// import React, {Component} from "react";
 import '../../css/Header.css';
 import BurgerMenuHome from '../BurgerMenuHome/BurgerMenuHome';
-import LangChangeButton from '../LangChangeButton/LangChangeButton';
+
 
 
 const Header = () => {

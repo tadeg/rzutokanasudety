@@ -1,28 +1,26 @@
 import React from "react";
 import { Link } from 'react-router-dom';
-
-import MountainGallery from '../../pages/mountaingallery/MountainGallery';
 import '../../css/MountainRange.css';
 
 
 const MountainRange = (props) => {
 
-    const navigationPoints = {
+    // const navigationPoints = {
 
-        menuItems: [
-            {
-                id: "id0001",
-                title: "/GaleriaKarkonosze",
-                link: "/gallery1"
-            },
+    //     menuItems: [
+    //         {
+    //             id: "id0001",
+    //             title: "/GaleriaKarkonosze",
+    //             link: "/gallery1"
+    //         },
 
-            {
-                id: "id0002",
-                title: "/GaleriaSowie",
-                link: "/gallery2"
-            }
-        ]
-    };
+    //         {
+    //             id: "id0002",
+    //             title: "/GaleriaSowie",
+    //             link: "/gallery2"
+    //         }
+    //     ]
+    // };
 
     // let takenItems = [];
     // if (props.navItems !== undefined ) {
