@@ -9,30 +9,71 @@
     color: limegreen;
     background-color: #222;
     border: none;
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     letter-spacing: 4px;
     transition: 0.3s;
 }
 
-/* @media (min-width: 1200px) {
+@media (min-width: 375px) {
     .navigatorBtn {
-        font-size: 1.5rem;
-        color: #fff;
-        font-family: 'Times New Roman', Times, serif;
+        font-size: 2.5rem;
+        ;
     }
-} */
+}
+
+@media (min-width: 640px) {
+    .navigatorBtn {
+        font-size: 2.5rem;
+    }
+}
+
+
+/* ---------- break points for desktop ---------- */
+
+@media (min-width: 1025px) {
+    .navigatorBtn {
+        font-size: 2.5rem;
+    }
+}
+
+
 
 .navigatorBtn:hover {
     /* background-color: aqua; */
     color: limegreen;
     color: #fff;
     color: limegreen;
-    font-size: 5rem;
+    font-size: 2.4rem;
     font-weight: 100;
     /* text-transform: uppercase; */
 }
+
+
+@media (min-width: 375px) {
+    .navigatorBtn:hover {
+        font-size: 2.8rem;
+        ;
+    }
+}
+
+@media (min-width: 640px) {
+    .navigatorBtn:hover {
+        font-size: 3.5rem;
+    }
+}
+
+
+/* ---------- break points for desktop ---------- */
+
+@media (min-width: 1025px) {
+    .navigatorBtn:hover {
+        font-size: 5rem;
+    }
+}
+
+
 
 
 /* Pasma górskie widoczne */
@@ -41,15 +82,6 @@
     color: red;
 
 }
-
-/* 
-@media (min-width: 1200px) {
-    .navigatorBtn.red {
-        font-size: 1.5rem;
-        color: #fff;
-        font-family: 'Times New Roman', Times, serif;
-    }
-} */
 
 .navigatorBtn.red:hover {
     color: red;

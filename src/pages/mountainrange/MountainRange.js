@@ -1,30 +1,23 @@
-import React from "react";
+import React, { Component } from "react";
 import { Link } from 'react-router-dom';
 import '../../css/MountainRange.css';
 
 
-const MountainRange = (props) => {
+// const MountainRange = (props) => {
 
-    // const navigationPoints = {
+class MountainRange extends Component {
 
-    //     menuItems: [
-    //         {
-    //             id: "id0001",
-    //             title: "/GaleriaKarkonosze",
-    //             link: "/gallery1"
-    //         },
+    render() {
 
-    //         {
-    //             id: "id0002",
-    //             title: "/GaleriaSowie",
-    //             link: "/gallery2"
-    //         }
-    //     ]
-    // };
+        let linkToGallery;
 
-    // let takenItems = [];
-    // if (props.navItems !== undefined ) {
-    //     takenItems = props.navItems};
+        if (this.props.mountainsName === "Karkonosze") {
+            linkToGallery='/gallery1';
+        } else if (this.props.mountainsName === "Góry Sowie") {
+            linkToGallery='/gallery2';
+        } else if (this.props.mountainsName === "Góry Stołowe") {
+            linkToGallery='/gallery3';
+        };
 
 
 return (
@@ -35,9 +28,9 @@ return (
         <section className="MountainRange">
 
             <div className="left-panel">
-                <h2 className="RangeName">{props.mountainsName}</h2>
-                <p>{props.part}</p>
-                <p>{props.highestPeak}</p>
+                <h2 className="RangeName">{this.props.mountainsName}</h2>
+                <p>{this.props.part}</p>
+                <p>{this.props.highestPeak}</p>
             </div>
 
           
@@ -45,16 +38,17 @@ return (
                 <div className="RangePhotoFrame">
 
 
-                    <Link to='/gallery1'>               
+                    {/* <Link to='/gallery1'>  */}
+                    <Link to={linkToGallery}>         
                         {/* Go to gallery</Link>  */}
                     {/* <Link to={navigationPoints.menuItems[0].link}> */}
-                    <img className="RangePhoto" src={props.photo} alt={props.photodesc} />
-                    </Link> 
+                    <img className="RangePhoto" src={this.props.photo} alt={this.props.photodesc} />
+                    </Link>
                 
                 
                 
                 </div>  
-                <div className="photo-desc">{props.photodesc}</div>
+                <div className="photo-desc">{this.props.photodesc}</div>
                 {/* <ul><li><Link to={'/gallery1'}>Test Link to - display Karkonosze</Link></li></ul> */}
             </div>
         </section> 
@@ -69,14 +63,8 @@ return (
  
 }
 
-// class MountainRange extends Component {
-//     render() {
-//         return (
-//     <div>
+}
 
-//     </div>
-//     );
-//     }
-// }
+
 
 export default MountainRange;

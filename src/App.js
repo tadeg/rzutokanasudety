@@ -2,6 +2,8 @@ import './css/App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Homepage from './pages/Homepage';
 import MountainGallery from './pages/mountaingallery/MountainGallery';
+import MountainGallery2 from './pages/mountaingallery/MountainGallery2';
+import MountainGallery3 from './pages/mountaingallery/MountainGallery3';
 import ViewWeatherScreen from './pages/viewweatherscreen/ViewWeatherScreen';
 // import Weather2Disp from './components/Weather2Disp/Weather2Disp';
 
@@ -28,6 +30,8 @@ function App() {
         <Routes>
           <Route path='/' element={<Homepage />} />
           <Route path='/gallery1' element={<MountainGallery />} />
+          <Route path='/gallery2' element={<MountainGallery2 />} />
+          <Route path='/gallery3' element={<MountainGallery3 />} />
           <Route path='/weather' element={<ViewWeatherScreen />} />
           <Route path='/about' element={<About />} />
           <Route path='/intlinks' element={<IntLinks />} />

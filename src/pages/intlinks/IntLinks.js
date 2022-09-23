@@ -13,7 +13,7 @@ return(
                 <BurgerMenuHome />
                 <LogoSubpage />
 
-                <h2 className="intLinks-title">Ciekawe linki: </h2>
+                <h2 className="intLinks-title">Zapraszam również do obejrzenia...</h2>
 
         <ul>
                 <li className="menuitemLink"><a href="http://gugafotografia.pl">gugafotografia.pl</a></li>

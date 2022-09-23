@@ -19,6 +19,14 @@
     text-align: center;
 }
 
+/* ---------- break points for desktop ---------- */
+
+@media (min-width: 1025px) {
+    .galleryRangeName {
+        font-size: 2rem;
+    }
+}
+
 .container {
     display: flex;
     width: 90vw;
@@ -40,9 +48,26 @@
     transition: flex 0.7s ease-in;
 }
 
-.slide.active {
-    flex: 5;
+/* ---------- break points for desktop ---------- */
+
+@media (min-width: 1025px) {
+    .slide {
+        flex: 0.5;
+    }
 }
+
+.slide.active {
+    flex: 2;
+}
+
+/* ---------- break points for desktop ---------- */
+
+@media (min-width: 1025px) {
+    .slide.active {
+        flex: 5;
+    }
+}
+
 
 .slide h3.slideTitle {
     position: absolute;
@@ -51,11 +76,21 @@
     margin: 0;
     opacity: 0;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 2.3rem;
-    line-height: 2.3rem;
+    font-size: 2rem;
+    line-height: 2rem;
 }
 
 .slide.active h3.slideTitle {
     opacity: 1;
     transition: opacity 0.3s ease-in 0.4s;
+}
+
+
+/* ---------- break points for desktop ---------- */
+
+@media (min-width: 1025px) {
+    .slide h3.slideTitle {
+        font-size: 2.3rem;
+        line-height: 2.3rem;
+    }
 }

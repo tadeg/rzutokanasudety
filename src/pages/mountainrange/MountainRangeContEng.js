@@ -38,7 +38,7 @@ class MountainRangeContEng extends Component {
 toggleMountainsDescHandler = () => {
     const doesShow = this.state.showMountainsDesc;
     this.setState({showMountainsDesc: !doesShow});
-    this.setState.navigatorBtnLabel = "Pasma Górskie";
+    this.state.navigatorBtnLabel = "Pasma Górskie";
 }
 
 
@@ -48,7 +48,7 @@ toggleMountainsDescHandler = () => {
 
     if(this.state.showMountainsDesc) {
 
-    this.setState.navigatorBtnLabel = "Zwiń do strony głównej";
+    this.state.navigatorBtnLabel = "Zwiń do strony głównej";
     // this.state.navigatorBtnLabel = "Roll up to the homepage";
 
     mountains = this.state.ranges.map(range => {

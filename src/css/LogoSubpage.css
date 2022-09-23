@@ -1,5 +1,14 @@
 .logoSubpage {
-    padding: 10vh 0 5vh 0;
+    padding: 15vh 0 5vh 0;
+}
+
+
+/* ---------- break points for desktop ---------- */
+
+@media (min-width: 1025px) {
+    .logoSubpage {
+        padding: 10vh 0 5vh 0;
+    }
 }
 
 .subPageTitle {

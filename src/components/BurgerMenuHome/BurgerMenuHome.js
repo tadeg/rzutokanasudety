@@ -90,10 +90,10 @@ constructor(props) {
 
         <aside className={this.state.menuStyles}>
             <ul>
-                <li className="menuitem"><Link to='/'>Homepage</Link></li>
-                <li className="menuitem"><Link to='/about'>About</Link></li>
-                <li className="menuitem"><Link to='/intlinks'>Interesting links</Link></li>
-                <li className="menuitem"><Link to='/weather'>Check the weather forecast  - API</Link></li>
+                <li className="menuitem"><Link to='/'>Strona główna</Link></li>
+                <li className="menuitem"><Link to='/weather'>Prognoza pogody</Link></li>
+                <li className="menuitem"><Link to='/about'>O mnie</Link></li>
+                <li className="menuitem"><Link to='/intlinks'>Zapraszam również do obejrzenia...</Link></li>
             </ul>
         </aside>
 

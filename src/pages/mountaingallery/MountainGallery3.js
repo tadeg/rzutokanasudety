@@ -5,32 +5,22 @@ import LogoSubpage from "../../components/LogoSubpage/LogoSubpage";
 import Footer from "../../components/Footer/Footer";
 // import styles from './MountainGallery.module.css'
 
-class MountainGallery extends Component {
 
+class MountainGallery3 extends Component {
 
 state = {
     photos: [
-        {"nr": "nr0001", "src": "url('http://www.gugafotografia.pl/img/tematy/02_gory/gf_Rg_00001.jpg')", "photodesc": "Śnieżne Kotły"},
-        {"nr": "nr0002", "src": "url('http://www.gugafotografia.pl/img/tematy/02_gory/gf_Rg_00011.jpg')", "photodesc": "Widok ze Śnieżki"},
-        {"nr": "nr0003", "src": "url('http://www.gugafotografia.pl/img/tematy/02_gory/gf_Rg_00010.jpg')", "photodesc": "Śnieżka"},
-        {"nr": "nr0004", "src": "url('http://www.gugafotografia.pl/img/tematy/02_gory/gf_Rg_00009.jpg')", "photodesc": "Kocioł Łomniczki"},
-        {"nr": "nr0005", "src": "url('http://www.gugafotografia.pl/img/tematy/02_gory/gf_Rg_00004.jpg')", "photodesc": "Widok ze Szrenicy"}
+        {"nr": "nr0001", "src": "url('http://www.gugafotografia.pl/img/tematy/02_gory/gf_Rg_00037.jpg')", "photodesc": "Szczeliniec Wielki"},
+        {"nr": "nr0002", "src": "url('http://www.gugafotografia.pl/img/tematy/02_gory/gf_Rg_00038.jpg')", "photodesc": "Szczeliniec Wielki"},
+        {"nr": "nr0003", "src": "url('http://www.gugafotografia.pl/img/tematy/02_gory/gf_Rg_00040.jpg')", "photodesc": "Na Szczelińcu"},
+        {"nr": "nr0004", "src": "url('http://www.gugafotografia.pl/img/tematy/02_gory/gf_Kg_00016.jpg')", "photodesc": "Góry Stołowe"},
+        {"nr": "nr0005", "src": "url('http://www.gugafotografia.pl/img/tematy/02_gory/gf_Kg_00017.jpg')", "photodesc": "Szczeliniec Wielki"},
     ],
+
     // TU STYLE ...
     slideExpandedStyles: ['slide', 'active'].join(' '),
     slideRolledUpStyles: ['slide'].join(' '),
 }
-
-
-// toggleSlideExpandHandler22 = () => {
-//     const slides = document.querySelectorAll('.slide');
-//     slides.forEach((slide) => {
-//         slide.deleteActiveClasses()
-//         slide.classList.add('active')
-// })
-
-
-
 
     toggleSlideExpandHandler = () => {
 
@@ -45,24 +35,12 @@ state = {
             })
         })
     
-
-        // let slideExpamdedStylesHn = ['slide'].join(' ');
-        // let slideRolledUpStylesHn = ['slide', 'active'].join(' ');
-        // slideExpandedStyles.pop('active')
-        // this.setState ({
-        //         slideRolledUpStyles: slideRolledUpStylesHn,
-        //         slideRolledUpStylesHn = ['slide', 'active'].join(' ')
-        // })
-
-
         function deleteActiveClasses() {
             slides.forEach(slide => {
                 slide.classList.remove('active')
             })
         }
     }
-
-
 
 
     render() {
@@ -89,9 +67,9 @@ state = {
             <div className='galleryWrapper'>
 
             <LogoSubpage />
-            <h2 class="galleryRangeName">Karkonosze</h2>
+            <h2 class="galleryRangeName">Góry Stołowe</h2>
 
-                <div className="container">
+            <div className="container">
 
                     <div className={this.state.slideExpandedStyles} style={slidePhoto0}>
                     {/* <div className="slide active"></div> */}
@@ -123,7 +101,7 @@ state = {
                          {/* <h3 className="slideTitle">Widok ze Szrenicy</h3> */}
                     </div>
 
-                </div>
+            </div>
             
 
             </div>
@@ -137,4 +115,4 @@ state = {
 
 
 
-export default MountainGallery;
+export default MountainGallery3;
