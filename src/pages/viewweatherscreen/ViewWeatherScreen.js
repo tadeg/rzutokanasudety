@@ -35,10 +35,10 @@ let pressureHn // humidity in the 'handler'
 // Karpacz?unitGroup=metric&include=days&key=L35FCYKGLA9CEHBS5QPJHKSNP&contentType=json
 
 // test data / endpoint on Beeceptor:
-// const API_LINK="https://tst5point.free.beeceptor.com/api/entity";
+const API_LINK="https://tst5point.free.beeceptor.com/api/entity";
 
 // test data / file - on localhost:
-const API_LINK="data.json"
+// const API_LINK="data.json"
 
 // const API_KEY="";
 
