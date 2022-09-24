@@ -1,15 +1,16 @@
 {
   "files": {
     "main.css": "/rzutokanasudety/static/css/main.ce274ac1.css",
-    "main.js": "/rzutokanasudety/static/js/main.2b8b93f3.js",
+    "main.js": "/rzutokanasudety/static/js/main.75b0d5fd.js",
     "static/js/787.ca52233c.chunk.js": "/rzutokanasudety/static/js/787.ca52233c.chunk.js",
+    "static/media/main-bg.jpg": "/rzutokanasudety/static/media/main-bg.1be2a2f87ab77b4260fc.jpg",
     "index.html": "/rzutokanasudety/index.html",
     "main.ce274ac1.css.map": "/rzutokanasudety/static/css/main.ce274ac1.css.map",
-    "main.2b8b93f3.js.map": "/rzutokanasudety/static/js/main.2b8b93f3.js.map",
+    "main.75b0d5fd.js.map": "/rzutokanasudety/static/js/main.75b0d5fd.js.map",
     "787.ca52233c.chunk.js.map": "/rzutokanasudety/static/js/787.ca52233c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ce274ac1.css",
-    "static/js/main.2b8b93f3.js"
+    "static/js/main.75b0d5fd.js"
   ]
 }
