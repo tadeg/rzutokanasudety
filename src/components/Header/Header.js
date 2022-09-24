@@ -1,6 +1,7 @@
 import React from 'react';
 import '../../css/Header.css';
 import BurgerMenuHome from '../BurgerMenuHome/BurgerMenuHome';
+import background from "../../img/main-bg.jpg";
 
 
 
@@ -11,10 +12,10 @@ const Header = () => {
             
             <header
                 style={
-                {backgroundImage: `url("http://www.gugafotografia.pl/img/tematy/02_gory/gf_Rg_00004.jpg")`,
-                backgroundSize: `cover`,
-                backgroundRepeat: `no-repeat`
-            }}
+                    {backgroundImage: `url(${background})`,
+                    backgroundSize: `cover`,
+                    backgroundRepeat: `no-repeat`
+                    }}
             >
 
                 <BurgerMenuHome />
