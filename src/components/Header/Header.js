@@ -8,7 +8,15 @@ const Header = () => {
     
     return ( 
         <div>   
-            <header>
+            
+            <header
+                style={
+                {backgroundImage: `url("http://www.gugafotografia.pl/img/tematy/02_gory/gf_Rg_00004.jpg")`,
+                backgroundSize: `cover`,
+                backgroundRepeat: `no-repeat`
+            }}
+            >
+
                 <BurgerMenuHome />
                 {/* <LangChangeButton /> */}
                 <div className="sitetitle">
