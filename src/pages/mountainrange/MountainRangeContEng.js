@@ -10,26 +10,14 @@ class MountainRangeContEng extends Component {
         super(props);
 
         this.state = {
-                        ranges: [
-                        {"id": "id0001", "mountainsName": "Karkonosze", "part": "Sudety Zachodnie", "highestPeak": "Śnieżka, 1603 m n.p.m", "photo": "http://www.gugafotografia.pl/img/tematy/02_gory/gf_Rg_00001.jpg", "photodesc": "Śnieżne Kotły"},
-                        {"id": "id0002", "mountainsName": "Góry Sowie", "part": "Sudety Środkowe", "highestPeak": "Wielka Sowa, 1015 m n.p.m", "photo": "http://www.gugafotografia.pl/img/tematy/02_gory/gf_Rg_00033.jpg", "photodesc": "Góry Sowie"},
-                        {"id": "id0003", "mountainsName": "Góry Stołowe", "part": "Sudety Środkowe", "highestPeak": "Szczeliniec Wielki, 919 m n.p.m", "photo": "http://www.gugafotografia.pl/img/tematy/02_gory/gf_Rg_00038.jpg", "photodesc": "Góry Stołowe"},                    
+                    ranges: [
+                        {"id": "id0001", "mountainsName": "Karkonosze", "part": "Sudety Zachodnie", "highestPeak": "Śnieżka, 1603 m n.p.m", "photo": "http://gugafotografia.pl/img/tematy/02_gory/gf_Rg_00001.jpg", "photodesc": "Śnieżne Kotły"},
+                        {"id": "id0002", "mountainsName": "Góry Sowie", "part": "Sudety Środkowe", "highestPeak": "Wielka Sowa, 1015 m n.p.m", "photo": "http://gugafotografia.pl/img/tematy/02_gory/gf_Rg_00033.jpg", "photodesc": "Okolice Sokolca"},
+                        {"id": "id0003", "mountainsName": "Góry Stołowe", "part": "Sudety Środkowe", "highestPeak": "Szczeliniec Wielki, 919 m n.p.m", "photo": "http://gugafotografia.pl/img/tematy/02_gory/gf_Rg_00038.jpg", "photodesc": "Szczeliniec Wielki"},                    
                         // {"id": "id0004", "mountainsName": "Góry Izerskie", "part": "Sudety Zachodnie", "highestPeak": "Wysoka Kopa, 1126 m n.p.m", "photo": "#", "photodesc": "vvv"}      
                     ],
-
-                        rangesEn: [
-                        {"id": "id0001", "mountainsName": "Giant Mountains", "part": "Western Sudetes", "highestPeak": "Śnieżka, 1603 m n.p.m", "photo": "http://www.gugafotografia.pl/img/tematy/02_gory/gf_Rg_00001.jpg", "photodesc": "Śnieżne Kotły"},
-                        {"id": "id0002", "mountainsName": "Owl Mountains", "part": "Central Sudetes", "highestPeak": "Wielka Sowa, 1015 m n.p.m", "photo": "http://www.gugafotografia.pl/img/tematy/02_gory/gf_Rg_00033.jpg", "photodesc": "Owl Mountains"},
-                        {"id": "id0003", "mountainsName": "Table Mountains", "part": "Central Sudetes", "highestPeak": "Szczeliniec Wielki, 919 m n.p.m", "photo": "http://www.gugafotografia.pl/img/tematy/02_gory/gf_Rg_00038.jpg", "photodesc": "Table Mountains"},                    
-                        // {"id": "id0004", "mountainsName": "Izera Mountains", "part": "Western Sudetes", "highestPeak": "Wysoka Kopa, 1126 m n.p.m", "photo": "#", "photodesc": "Izera Mountains"}      
-                    ],
-
-
-                        showMountainsDesc: false,
-                        navigatorBtnLabel: "Pasma Górskie",
-                        // navigatorBtnLabel: "Mountain Ranges",
-
-
+                    showMountainsDesc: false,
+                    navigatorBtnLabel: "Pasma Górskie"
                     };
     }
 
