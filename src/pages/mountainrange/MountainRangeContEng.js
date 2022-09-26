@@ -11,11 +11,17 @@ class MountainRangeContEng extends Component {
 
         this.state = {
                     ranges: [
-                        {"id": "id0001", "mountainsName": "Karkonosze", "part": "Sudety Zachodnie", "highestPeak": "Śnieżka, 1603 m n.p.m", "photo": "http://gugafotografia.pl/img/tematy/02_gory/gf_Rg_00001.jpg", "photodesc": "Śnieżne Kotły"},
-                        {"id": "id0002", "mountainsName": "Góry Sowie", "part": "Sudety Środkowe", "highestPeak": "Wielka Sowa, 1015 m n.p.m", "photo": "http://gugafotografia.pl/img/tematy/02_gory/gf_Rg_00033.jpg", "photodesc": "Okolice Sokolca"},
-                        {"id": "id0003", "mountainsName": "Góry Stołowe", "part": "Sudety Środkowe", "highestPeak": "Szczeliniec Wielki, 919 m n.p.m", "photo": "http://gugafotografia.pl/img/tematy/02_gory/gf_Rg_00038.jpg", "photodesc": "Szczeliniec Wielki"},                    
+                        {"id": "id0001", "mountainsName": "Karkonosze", "part": "Sudety Zachodnie", "highestPeak": "Śnieżka, 1603 m n.p.m", "photo": "/images/gallery1.jpg", "photodesc": "Śnieżne Kotły"},
+                        {"id": "id0002", "mountainsName": "Góry Sowie", "part": "Sudety Środkowe", "highestPeak": "Wielka Sowa, 1015 m n.p.m", "photo": "/images/gallery2.jpg", "photodesc": "Okolice Sokolca"},
+                        {"id": "id0003", "mountainsName": "Góry Stołowe", "part": "Sudety Środkowe", "highestPeak": "Szczeliniec Wielki, 919 m n.p.m", "photo": "/images/gallery3.jpg", "photodesc": "Szczeliniec Wielki"}                    
                         // {"id": "id0004", "mountainsName": "Góry Izerskie", "part": "Sudety Zachodnie", "highestPeak": "Wysoka Kopa, 1126 m n.p.m", "photo": "#", "photodesc": "vvv"}      
                     ],
+                    // ranges: [
+                    //   {"id": "id0001", "mountainsName": "Karkonosze", "part": "Sudety Zachodnie", "highestPeak": "Śnieżka, 1603 m n.p.m", "photo": "http://gugafotografia.pl/img/tematy/02_gory/gf_Rg_00001.jpg", "photodesc": "Śnieżne Kotły"},
+                    //   {"id": "id0002", "mountainsName": "Góry Sowie", "part": "Sudety Środkowe", "highestPeak": "Wielka Sowa, 1015 m n.p.m", "photo": "http://gugafotografia.pl/img/tematy/02_gory/gf_Rg_00033.jpg", "photodesc": "Okolice Sokolca"},
+                    //   {"id": "id0003", "mountainsName": "Góry Stołowe", "part": "Sudety Środkowe", "highestPeak": "Szczeliniec Wielki, 919 m n.p.m", "photo": "http://gugafotografia.pl/img/tematy/02_gory/gf_Rg_00038.jpg", "photodesc": "Szczeliniec Wielki"},                    
+                    //     // {"id": "id0004", "mountainsName": "Góry Izerskie", "part": "Sudety Zachodnie", "highestPeak": "Wysoka Kopa, 1126 m n.p.m", "photo": "#", "photodesc": "vvv"}      
+                    // ],
                     showMountainsDesc: false,
                     navigatorBtnLabel: "Pasma Górskie"
                     };

@@ -42,7 +42,7 @@ return (
                     <Link to={linkToGallery}>         
                         {/* Go to gallery</Link>  */}
                     {/* <Link to={navigationPoints.menuItems[0].link}> */}
-                    <img className="RangePhoto" src={this.props.photo} alt={this.props.photodesc} />
+                    <img className="RangePhoto" src={process.env.PUBLIC_URL + this.props.photo} alt={this.props.photodesc} />
                     </Link>
                 
                 
