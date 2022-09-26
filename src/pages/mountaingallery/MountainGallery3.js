@@ -9,13 +9,22 @@ import Footer from "../../components/Footer/Footer";
 class MountainGallery3 extends Component {
 
 state = {
+
     photos: [
-        {"nr": "nr0001", "src": "url('http://www.gugafotografia.pl/img/tematy/02_gory/gf_Rg_00037.jpg')", "photodesc": "Szczeliniec Wielki"},
-        {"nr": "nr0002", "src": "url('http://www.gugafotografia.pl/img/tematy/02_gory/gf_Rg_00038.jpg')", "photodesc": "Szczeliniec Wielki"},
-        {"nr": "nr0003", "src": "url('http://www.gugafotografia.pl/img/tematy/02_gory/gf_Rg_00040.jpg')", "photodesc": "Na Szczelińcu"},
-        {"nr": "nr0004", "src": "url('http://www.gugafotografia.pl/img/tematy/02_gory/gf_Kg_00016.jpg')", "photodesc": "Góry Stołowe"},
-        {"nr": "nr0005", "src": "url('http://www.gugafotografia.pl/img/tematy/02_gory/gf_Kg_00017.jpg')", "photodesc": "Szczeliniec Wielki"},
+        {"nr": "nr0001", "src": "/images/gallery3/stolowe1.jpg", "photodesc": "Szczeliniec Wielki"},
+        {"nr": "nr0002", "src": "/images/gallery3/stolowe2.jpg", "photodesc": "Widok ze Szczelińca"},
+        {"nr": "nr0003", "src": "/images/gallery3/stolowe3.jpg", "photodesc": "Na Szczelińcu"},
+        {"nr": "nr0004", "src": "/images/gallery3/stolowe4.jpg", "photodesc": "Na szlaku"},
+        {"nr": "nr0005", "src": "/images/gallery3/stolowe5.jpg", "photodesc": "Widok ze Szczelińca"}
     ],
+
+    // photos: [
+    //     {"nr": "nr0001", "src": "url('http://www.gugafotografia.pl/img/tematy/02_gory/gf_Rg_00037.jpg')", "photodesc": "Szczeliniec Wielki"},
+    //     {"nr": "nr0002", "src": "url('http://www.gugafotografia.pl/img/tematy/02_gory/gf_Rg_00038.jpg')", "photodesc": "Widok ze Szczelińca"},
+    //     {"nr": "nr0003", "src": "url('http://www.gugafotografia.pl/img/tematy/02_gory/gf_Rg_00040.jpg')", "photodesc": "Na Szczelińcu"},
+    //     {"nr": "nr0004", "src": "url('http://www.gugafotografia.pl/img/tematy/02_gory/gf_Kg_00016.jpg')", "photodesc": "Na szlaku"},
+    //     {"nr": "nr0005", "src": "url('http://www.gugafotografia.pl/img/tematy/02_gory/gf_Kg_00017.jpg')", "photodesc": "Widok ze Szczelińca"},
+    // ],
 
     // TU STYLE ...
     slideExpandedStyles: ['slide', 'active'].join(' '),
@@ -49,11 +58,11 @@ state = {
 
     // let slideExpandedStyles =['slide', 'active'].join(' ');
     // const slideRolledUpStyles = ['slide'];
-    const slidePhoto0 = { backgroundImage: `${this.state.photos[0].src}`}
-    const slidePhoto1 = { backgroundImage: `${this.state.photos[1].src}`}
-    const slidePhoto2 = { backgroundImage: `${this.state.photos[2].src}`}
-    const slidePhoto3 = { backgroundImage: `${this.state.photos[3].src}`}
-    const slidePhoto4 = { backgroundImage: `${this.state.photos[4].src}`}
+    const slidePhoto0 = { backgroundImage: `url(${process.env.PUBLIC_URL + this.state.photos[0].src}`}
+    const slidePhoto1 = { backgroundImage: `url(${process.env.PUBLIC_URL + this.state.photos[1].src}`}
+    const slidePhoto2 = { backgroundImage: `url(${process.env.PUBLIC_URL + this.state.photos[2].src}`}
+    const slidePhoto3 = { backgroundImage: `url(${process.env.PUBLIC_URL + this.state.photos[3].src}`}
+    const slidePhoto4 = { backgroundImage: `url(${process.env.PUBLIC_URL + this.state.photos[4].src}`}
     // const slidePhoto0 = {
     //     backgroundImage: 'url("http://www.gugafotografia.pl/img/tematy/02_gory/gf_Rg_00001.jpg")'
     // }
