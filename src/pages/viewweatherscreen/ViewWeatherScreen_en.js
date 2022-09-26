@@ -236,17 +236,17 @@ function appendData(data) {
             {/* Header - title & data input  */}
                 <section className="wea-up-container">
 
-                    <button onClick={this.setWeatherDataHandler} className="wea-get-info-btn">Sprawdź prognozę pogody</button>
-                    <p className="warningInfo">Dane prognozy pogody są testowymi, fikcyjnymi i przykładowymi danymi pobieranymi z testowego API endpointu.</p>
+                    <button onClick={this.setWeatherDataHandler} className="wea-get-info-btn">Get Weather Forecast</button>
+                    <p className="warningInfo">Weather forcast data is a test, fictional, example data requested from a test API endpoint.</p>
                     <div className="rep-title">
-                        <h2 className="wea-report-title">Prognoza pogody:</h2>
+                        <h2 className="wea-report-title">Weather forecast info:</h2>
                         {/* <h2 className="wea-report-title selected-city"></h2> */}
                     </div>
                     
                     <div className="rep-params">
 
                         <div className="rep-params-part">
-                            <h3 className="data-input left city">Wprowadź miejscowość:</h3>
+                            <h3 className="data-input left city">Enter city:</h3>
                             {/* <input type="text" className="data-input right city-input" placeholder="Enter city name ..."></input> */}
                         
                             <select name="city" className="data-input right city-input" placeholder="Enter city name ...">
@@ -258,7 +258,7 @@ function appendData(data) {
                         </div>
                         
                         <div className="rep-params-part">
-                            <h3 className="data-input left">Data od:</h3>
+                            <h3 className="data-input left">Date from:</h3>
                             <input type="text" className="data-input right date-input" placeholder="2022-09-21"></input>
                         </div>
 
@@ -276,13 +276,13 @@ function appendData(data) {
                         <li className="table-row">
                             <div className="table-data">
                                 <div className="cell1">#</div>
-                                <div className="cell2">Miejscowość</div>
-                                <div className="cell3">Data prognozy</div>
-                                <div className="cell4">Temperatura [℃]</div>
+                                <div className="cell2">City</div>
+                                <div className="cell3">Date Forecast</div>
+                                <div className="cell4">Temperature [℃]</div>
                             </div>
                             <div className="table-data2">
-                                <div className="cell5">Wilgotność [%]</div>
-                                <div className="cell6">Ciśnienie [mbar] </div>
+                                <div className="cell5">Humidity [%]</div>
+                                <div className="cell6">Pressure [mbar] </div>
                                 {/* <div className="cell7">Wind Speed</div> */}
                             </div>              
                         </li>                        
