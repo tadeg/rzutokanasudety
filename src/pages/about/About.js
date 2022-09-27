@@ -15,7 +15,7 @@ const About = () => {
 
             <h2 className="about-title">O mnie: </h2>
 
-                <div className="container">
+                <div className="about-wrap">
 
                     <div class="selfintro">
                         <img className="photome" src={imgAbout} alt="" />
