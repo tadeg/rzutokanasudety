@@ -212,7 +212,7 @@ const ViewWeatherScreen = () => {
             {/* Header - title & data input  */}
                 <section className="wea-up-container">
                         {/* <button onClick={getWeather} className="wea-get-info-btn">Sprawdź</button> */}
-                        <button onClick={clearForecast} className="wea-get-info-btn">Usuń dane</button>
+                        {/* <button onClick={clearForecast} className="wea-get-info-btn">Usuń dane</button> */}
                         {/* <p className="warningInfo">Dane prognozy pogody są testowymi, fikcyjnymi i przykładowymi danymi pobieranymi z testowego API endpointu.</p> */}                       
                         <div className="rep-title">
                             <h2 className="wea-report-title">Prognoza pogody - 15 dni: </h2>
