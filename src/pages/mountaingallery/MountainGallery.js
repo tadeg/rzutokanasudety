@@ -99,7 +99,7 @@ state = {
             <div className='galleryWrapper'>
 
             <LogoSubpage />
-                <h2 class="galleryRangeName">Karkonosze</h2>
+                <h2 className="galleryRangeName">Karkonosze</h2>
 
                 <div className="container">
 

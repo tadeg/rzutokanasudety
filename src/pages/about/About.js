@@ -17,7 +17,7 @@ const About = () => {
 
                 <div className="about-wrap">
 
-                    <div class="selfintro">
+                    <div className="selfintro">
                         <img className="photome" src={imgAbout} alt="" />
                         <div className="title">
                             <p className="nick">tadoe</p>
@@ -25,7 +25,7 @@ const About = () => {
                         </div>
                     </div>
                 
-                    <div class="cnote">&copy; 2022 Wszystkie zdjęcia na stronie zrobione w czasie sudeckich wędrówek górskich na przestrzeni lat.</div>
+                    <div className="cnote">&copy; 2023 Wszystkie zdjęcia na stronie zrobione w czasie sudeckich wędrówek górskich na przestrzeni lat.</div>
              
                 </div>
 

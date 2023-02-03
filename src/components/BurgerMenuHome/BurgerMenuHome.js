@@ -17,11 +17,9 @@ constructor(props) {
 }
  
     openMenuHandler = () => {
-        console.log("Działa działa działa !!!");
-
-        console.log(this.state.icoBurgerStyles);
-        console.log(this.state.icoXStyles);
-        console.log("Yeah!!!! (1)");
+   
+        // console.log(this.state.icoBurgerStyles);
+        // console.log(this.state.icoXStyles);
 
         // let icoBurgerStylesHn = this.state.icoBurgerStyles.pop();
         // let icoXStylesHn = this.state.icoXStyles.push('show');
@@ -38,7 +36,6 @@ constructor(props) {
             menuStyles: menuStylesHn
         })
 
-        console.log("Yeah!!!! (2)");
 
     }
 
@@ -56,7 +53,6 @@ constructor(props) {
             menuStyles: menuStylesHn
         })
 
-        console.log("Yeah!!!! (4)");
     }
 
 
@@ -93,7 +89,6 @@ constructor(props) {
                 <li className="menuitem"><Link to='/'>Strona główna</Link></li>
                 <li className="menuitem"><Link to='/weather'>Prognoza pogody</Link></li>
                 <li className="menuitem"><Link to='/about'>O mnie</Link></li>
-                <li className="menuitem"><Link to='/intlinks'>Zapraszam również do obejrzenia...</Link></li>
             </ul>
         </aside>
 

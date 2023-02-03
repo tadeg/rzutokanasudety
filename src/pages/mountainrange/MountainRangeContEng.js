@@ -23,7 +23,7 @@ class MountainRangeContEng extends Component {
                     //     // {"id": "id0004", "mountainsName": "Góry Izerskie", "part": "Sudety Zachodnie", "highestPeak": "Wysoka Kopa, 1126 m n.p.m", "photo": "#", "photodesc": "vvv"}      
                     // ],
                     showMountainsDesc: false,
-                    navigatorBtnLabel: "Pasma Górskie"
+                    navigatorBtnLabel: "Pasma Górskie - rozwiń"
                     };
     }
 
@@ -32,7 +32,7 @@ class MountainRangeContEng extends Component {
 toggleMountainsDescHandler = () => {
     const doesShow = this.state.showMountainsDesc;
     this.setState({showMountainsDesc: !doesShow});
-    this.state.navigatorBtnLabel = "Pasma Górskie";
+    this.state.navigatorBtnLabel = "Pasma Górskie - rozwiń";
 }
 
 

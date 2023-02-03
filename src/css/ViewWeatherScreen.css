@@ -5,7 +5,7 @@
 } */
 
 .ViewWeatherScreen {
-    height: 200vh;
+    min-height: 200vh;
     /* background: linear-gradient(rgba(9, 184, 224, 0.586), rgba(0, 0, 0, 0.7)); */
     /* background-color: rgba(74, 74, 192, 0.321); */
     background-color: rgb(134, 134, 248);
@@ -29,7 +29,7 @@
 .wea-get-info-btn {
     flex-basis: 50%;
     width: 25vw;
-    margin: 7vh 1vw 2vh;
+    margin: 7vh 55vw 2vh;
     padding: 2vh 3vw;
     border-radius: 10px;
     border: 1px solid #fff;
